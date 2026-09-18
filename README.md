@@ -150,22 +150,6 @@ The following images demonstrate the physical hardware running various modules o
 <img width="1268" height="772" alt="image" src="https://github.com/user-attachments/assets/366c4201-e8f2-434f-8e81-3fff00a30cd8" />
 <img width="1280" height="766" alt="image" src="https://github.com/user-attachments/assets/6adba668-6dbf-403f-b762-295b538ce1f8" />
 
-
-### Schematic & Circuit Details
-Below are the schematic wiring diagrams showing terminal connections:
-
-![Circuit Details](./Circuit%20Details.png)
-
-### Power Supply Hookups
-Ensure proper voltage regulation when hooking up the modules:
-
-![Power Supply Connection](./Power%20Supply%20%20Connection.png)
-
-### Microcontroller Pin Mapping Diagram
-Detailed physical pin connections on the LPC2148 LQFP package:
-
-![Pin Connection](./New%20images/02_Pin_Connections.png)
-
 ---
 
 ## 🚀 Compilation & Development Environment
