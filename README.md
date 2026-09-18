@@ -16,7 +16,8 @@ By scanning a unique citizen RFID card, authenticated users can access their Ban
 ### High-Level Block Diagram
 The overall system layout connects the main controller block to various sensors, displays, inputs, and memory storage.
 
-![System Block Diagram](./New%20images/Block%20diagram%20in%20RFID.png)
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/59b8ad00-df9a-43be-97fe-b7319532dd8c" />
+
 
 ### Software & Firmware Architecture
 The codebase is structured modularly to separate the low-level peripheral drivers (UART, SPI, Keypad, LCD, RTC) from the high-level application menus.
