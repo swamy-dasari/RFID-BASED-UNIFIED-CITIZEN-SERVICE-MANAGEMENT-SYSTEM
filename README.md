@@ -78,9 +78,9 @@ Below is the mapping map designed to keep system parameters persistent across po
 | Hex Memory Address | Data Field description | Default Value / Boot Configuration |
 | :--- | :--- | :--- |
 | `0x0000` | Magic Validation Byte | Initialized to `0xC6` (triggers default values on first boot) |
-| `0x0010 - 0x0011` | User 1 (Bhavesh) ATM Balance (16-bit) | `10000` |
-| `0x0012 - 0x0013` | User 2 (Om) ATM Balance (16-bit) | `450` |
-| `0x0014 - 0x0015` | User 3 (Mihir) ATM Balance (16-bit) | `5000` |
+| `0x0010 - 0x0011` | User 1 (Swamy) ATM Balance (16-bit) | `10000` |
+| `0x0012 - 0x0013` | User 2 (Shiva) ATM Balance (16-bit) | `450` |
+| `0x0014 - 0x0015` | User 3 (Mohan) ATM Balance (16-bit) | `5000` |
 | `0x0020` | User 1 Vote Registration Code | `0x00` (Not Voted) |
 | `0x0021` | User 2 Vote Registration Code | `0x02` (Voted for INC) |
 | `0x0022` | User 3 Vote Registration Code | `0x00` (Not Voted) |
