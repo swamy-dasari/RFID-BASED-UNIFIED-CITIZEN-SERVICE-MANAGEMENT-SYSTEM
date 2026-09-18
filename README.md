@@ -133,10 +133,7 @@ The physical board interfaces a matrix keypad, character LCD, Buzzer, and LEDs:
 The following images demonstrate the physical hardware running various modules of the unified system on the ARM7 development board:
 
 **1. System Boot & RFID Scan Screen**  
-
-<img width="1600" height="878" alt="image" src="https://github.com/user-attachments/assets/9a51276b-0d27-4328-acb1-4ac4479bf0ba" />
-
-
+<img width="1600" height="858" alt="image" src="https://github.com/user-attachments/assets/6724d6eb-82ae-4ad3-adac-a1a5b33985a7" />
 
 **2. Officer Master Card Recognition**  
 <img width="1280" height="785" alt="image" src="https://github.com/user-attachments/assets/cf835800-0a28-4b71-bae6-c80cdcf42f6d" />
