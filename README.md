@@ -41,7 +41,8 @@ The interactive menu system branches out logically depending on user keystrokes:
 ### Firmware Modules & Responsibilities
 Each C file is compiled and linked with specific functional responsibilities to form the unified binary:
 
-![Modules and Responsibilities](./New%20images/Modules%20menu.png)
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/6505a33d-f474-4e26-ba06-60b75ef8636c" />
+
 
 ---
 
