@@ -28,7 +28,8 @@ The codebase is structured modularly to separate the low-level peripheral driver
 ## 🗺️ Main Program Flow Chart
 Here is the detailed sequential logic executed by the main program:
 
-![Main Program Flow](./New%20images/Main%20Program%20Flow%20Chart%20RFID.png)
+<img width="1024" height="1536" alt="Main Program Flow Chart RFID" src="https://github.com/user-attachments/assets/55abb5ab-0275-4d32-8ab3-3e4fddd18786" />
+
 
 ### User Menu Navigation Tree
 The interactive menu system branches out logically depending on user keystrokes:
@@ -188,4 +189,3 @@ Compile and debug the code using Keil Microcontroller Development Kit (MDK):
    *   Connect LPC2148 Board via USB-to-UART converter interface.
    *   Place the LPC2148 into **ISP Boot Mode** (usually by asserting ISP/Reset switches).
    *   Point Flash Magic to your generated `.hex` binary and hit **Start**.
-
