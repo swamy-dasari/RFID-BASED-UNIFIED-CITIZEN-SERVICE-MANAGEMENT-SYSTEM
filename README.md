@@ -113,13 +113,6 @@ The Vectored Interrupt Controller (VIC) maps incoming hardware triggers efficien
 ### 4. SPI0 Engine & Calender
 *   **SPI0 Init:** Standard 8-bit write-only/read SPI routines mapped directly to hardware peripheral registers (`S0SPCR`, `S0SPSR`, `S0SPDR`).
 *   **Algorithm:** Integrated mathematically to keep the RTC day register (`DOW`) calculated dynamically when administrative edits occur:
-    ```c
-    // DOW calculation using Sakamoto's Algorithm
-    static const u8 t[] = {0, 3, 2, 5, 0, 3, 5, 1, 4, 6, 2, 4};
-    if (m < 3) y -= 1;
-    dow = (y + y/4 - y/100 + y/400 + t[m-1] + d) % 7;
-    ```
-
 ---
 
 ## 🔌 Hardware Setup & Connections
