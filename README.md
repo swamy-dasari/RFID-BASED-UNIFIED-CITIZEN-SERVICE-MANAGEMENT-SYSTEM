@@ -110,9 +110,9 @@ The Vectored Interrupt Controller (VIC) maps incoming hardware triggers efficien
 *   **Layout:** Operates in 8-bit bus configuration utilizing pins `P0.8 - P0.15` for data and control pins `P0.16` (RS), `P0.17` (R/W), and `P0.18` (EN).
 *   **CGRAM Interface:** Contains functions to reprogram the internal CGRAM tables of the LCD display on-the-fly, allowing graphics manipulation of custom display metrics.
 
-### 4. SPI0 Engine & Sakamoto's Calendaring
+### 4. SPI0 Engine & Calender
 *   **SPI0 Init:** Standard 8-bit write-only/read SPI routines mapped directly to hardware peripheral registers (`S0SPCR`, `S0SPSR`, `S0SPDR`).
-*   **Sakamoto's Algorithm:** Integrated mathematically to keep the RTC day register (`DOW`) calculated dynamically when administrative edits occur:
+*   **Algorithm:** Integrated mathematically to keep the RTC day register (`DOW`) calculated dynamically when administrative edits occur:
     ```c
     // DOW calculation using Sakamoto's Algorithm
     static const u8 t[] = {0, 3, 2, 5, 0, 3, 5, 1, 4, 6, 2, 4};
@@ -155,8 +155,6 @@ The following images demonstrate the physical hardware running various modules o
 
 ### Keil Development Platform Setup
 Compile and debug the code using Keil Microcontroller Development Kit (MDK):
-
-![Development Platform](./New%20images/Development%20Platform%20rfid.png)
 
 ### Deployment Guidelines:
 1. **Prerequisites:**
