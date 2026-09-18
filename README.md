@@ -32,12 +32,6 @@ Here is the detailed sequential logic executed by the main program:
 
 <img width="1024" height="1536" alt="Main Program Flow Chart RFID" src="https://github.com/user-attachments/assets/55abb5ab-0275-4d32-8ab3-3e4fddd18786" />
 
-
-### User Menu Navigation Tree
-The interactive menu system branches out logically depending on user keystrokes:
-
-![Menu Structure](./New%20images/user%20menu%20image.png)
-
 ### Firmware Modules & Responsibilities
 Each C file is compiled and linked with specific functional responsibilities to form the unified binary:
 
@@ -79,8 +73,6 @@ Each C file is compiled and linked with specific functional responsibilities to 
 
 The system relies on an external **AT25LC512 (512Kbit / 64KB)** EEPROM over SPI0 to maintain persistent user states.
 
-![Data Storage Layout](./New%20images/Data%20storage.png)
-
 Below is the mapping map designed to keep system parameters persistent across power cycles:
 
 | Hex Memory Address | Data Field description | Default Value / Boot Configuration |
@@ -112,9 +104,7 @@ Below is the mapping map designed to keep system parameters persistent across po
 *   **Framing Delimiters:** Incoming RFID streams are parsed between the standard Serial Start-of-Text (`STX = 0x02`) and End-of-Text (`ETX = 0x03`) bytes to ensure packet transmission integrity.
 
 ### 2. Interrupt Management
-The Vectored Interrupt Controller (VIC) maps incoming hardware triggers efficiently (e.g., UART0 and EINT3):
-
-![Interrupts Usage](./New%20images/Interrupts%20rfid.png)
+The Vectored Interrupt Controller (VIC) maps incoming hardware triggers efficiently (e.g., UART0 and EINT3)
 
 ### 3. LCD Driver (8-Bit Mode)
 *   **Layout:** Operates in 8-bit bus configuration utilizing pins `P0.8 - P0.15` for data and control pins `P0.16` (RS), `P0.17` (R/W), and `P0.18` (EN).
