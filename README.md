@@ -146,13 +146,8 @@ The following images demonstrate the physical hardware running various modules o
 **3. Administrator Officer Menu**  
 <img width="1280" height="760" alt="image" src="https://github.com/user-attachments/assets/50a18c65-b42b-45d9-bb47-2560df975292" />
 
-
-**4. Citizen Card Validation**  
-![Citizen Validation](./New%20images/image%205.png)
-
 **5. Main Citizen Services Menu**  
 <img width="1268" height="772" alt="image" src="https://github.com/user-attachments/assets/366c4201-e8f2-434f-8e81-3fff00a30cd8" />
-<img width="1599" height="920" alt="image" src="https://github.com/user-attachments/assets/2151190f-4a81-4db4-b2db-beb7c22a0787" />
 <img width="1280" height="766" alt="image" src="https://github.com/user-attachments/assets/6adba668-6dbf-403f-b762-295b538ce1f8" />
 
 
