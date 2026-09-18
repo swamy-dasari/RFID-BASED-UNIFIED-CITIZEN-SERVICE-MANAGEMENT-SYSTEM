@@ -127,13 +127,12 @@ The Vectored Interrupt Controller (VIC) maps incoming hardware triggers efficien
 ### Development Board Components
 The physical board interfaces a matrix keypad, character LCD, Buzzer, and LEDs:
 
-![Hardware Components](./New%20images/kit%20image.jpeg)
+<img width="1600" height="878" alt="image" src="https://github.com/user-attachments/assets/a20a6680-9e0b-4836-94c5-e9e68dc26a22" />
 
 ### Project Hardware Showcase
 The following images demonstrate the physical hardware running various modules of the unified system on the ARM7 development board:
 
 **1. System Boot & RFID Scan Screen**  
-<img width="1600" height="878" alt="image" src="https://github.com/user-attachments/assets/a20a6680-9e0b-4836-94c5-e9e68dc26a22" />
 
 <img width="1600" height="878" alt="image" src="https://github.com/user-attachments/assets/9a51276b-0d27-4328-acb1-4ac4479bf0ba" />
 
